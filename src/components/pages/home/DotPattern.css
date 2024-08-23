@@ -1,0 +1,67 @@
+/* .dot-pattern-background {
+  background-color: #212121;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.15) 1px,
+    transparent 1px
+  );
+  background-size: 30px 30px;
+} */
+
+.dot-pattern-background {
+  background-color: #212121;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.15) 1px,
+    transparent 1.5px
+  );
+  background-size: 40px 40px;
+  animation: movePattern 10s linear infinite;
+}
+
+@keyframes movePattern {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 30px 30px;
+  }
+}
+
+/* .dot-pattern-background {
+  background-color: #212121;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.15) 1px,
+    transparent 1px
+  );
+  background-size: 30px 30px;
+  animation: movePattern 10s linear infinite, pulseDots 2s ease-in-out infinite;
+}
+
+@keyframes movePattern {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 30px 30px; 
+  }
+}
+
+@keyframes pulseDots {
+  0%,
+  100% {
+    background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.15) 1px,
+      transparent 1px
+    );
+  }
+  50% {
+    background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.15) 2px,
+      transparent 2px
+    );
+  }
+} */

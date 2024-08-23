@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontal-scroll-section {
+  position: sticky;
+  top: 0;
+  height: 100vh; /* Full viewport height */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-scroll-section .flex {
+  display: inline-flex;
+  width: fit-content;
+}
+
+.horizontal-scroll-section img {
+  display: inline-block;
+  height: 300px; /* Height can remain the same */
+  width: 500px; /* Increase the width here */
+  object-cover: cover; /* Ensure the image covers the space evenly */
+  border-radius: 8px; /* Optional: rounding the edges */
+}
+
+.pt-96 {
+  padding-top: 24rem;
+}
