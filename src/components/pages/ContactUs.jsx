@@ -16,7 +16,7 @@
 
 import React from "react";
 import ContactForm from "../ContactForm"; // Adjusted the import to match the updated component structure
-import ContactText from "../contactText";
+import ContactText from "../ContactText";
 import "./home/DotPattern.css"; // Ensure this file contains the CSS for the dot pattern and animation
 
 const ContactUs = () => {
