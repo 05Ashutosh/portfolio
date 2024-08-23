@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/Icon.png"; // Adjust the path if needed
 import { FaGithub, FaGlobe, FaFigma } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 const NavBar = () => {
   return (

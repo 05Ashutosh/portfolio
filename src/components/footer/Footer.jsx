@@ -5,7 +5,7 @@ import {
   FaPinterestP,
   FaTwitter,
   FaDribbble,
-  FaEnvelope,
+  // FaEnvelope,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -70,7 +70,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="bg-black border w-60 p-6 rounded-md shadow-lg">
-            <FaEnvelope size={24} className="text-[#f9e8d7] mb-4" />
+            {/* <FaEnvelope size={24} className="text-[#f9e8d7] mb-4" /> */}
             <a
               href="mailto:contact@example.com"
               className="text-white hover:text-gray-400"
